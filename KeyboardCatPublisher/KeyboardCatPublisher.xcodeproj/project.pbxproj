@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D492D0CC1947B3B900F4F534 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D492D0CA1947B3B900F4F534 /* InfoPlist.strings */; };
+		D492D0CE1947B3B900F4F534 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D492D0CD1947B3B900F4F534 /* main.m */; };
+		D492D0D21947B3B900F4F534 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D492D0D11947B3B900F4F534 /* AppDelegate.m */; };
+		D492D0D51947B3B900F4F534 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D492D0D31947B3B900F4F534 /* Main_iPhone.storyboard */; };
+		D492D0D81947B3B900F4F534 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D492D0D61947B3B900F4F534 /* Main_iPad.storyboard */; };
+		D492D0DB1947B3B900F4F534 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D492D0DA1947B3B900F4F534 /* ViewController.m */; };
+		D492D0DD1947B3B900F4F534 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D492D0DC1947B3B900F4F534 /* Images.xcassets */; };
+		D492D0EE1947B3B900F4F534 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D492D0EC1947B3B900F4F534 /* InfoPlist.strings */; };
+		D492D0F01947B3B900F4F534 /* KeyboardCatPublisherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D492D0EF1947B3B900F4F534 /* KeyboardCatPublisherTests.m */; };
+		D492D0FA1947B40D00F4F534 /* OpenTok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D492D0F91947B40D00F4F534 /* OpenTok.framework */; };
+		D492D0FD1947B44B00F4F534 /* MovVideoCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = D492D0FC1947B44B00F4F534 /* MovVideoCapture.m */; };
+		D492D10F1947BA4100F4F534 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D492D0FE1947BA4100F4F534 /* libstdc++.dylib */; };
+		D492D1101947BA4100F4F534 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D492D0FF1947BA4100F4F534 /* libstdc++.6.0.9.dylib */; };
+		D492D1111947BA4100F4F534 /* libpthread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D492D1001947BA4100F4F534 /* libpthread.dylib */; };
+		D492D1121947BA4100F4F534 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D492D1011947BA4100F4F534 /* libsqlite3.dylib */; };
+		D492D1131947BA4100F4F534 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D492D1021947BA4100F4F534 /* libxml2.dylib */; };
+		D492D1141947BA4100F4F534 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D492D1031947BA4100F4F534 /* SystemConfiguration.framework */; };
+		D492D1151947BA4100F4F534 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D492D1041947BA4100F4F534 /* CoreTelephony.framework */; };
+		D492D1161947BA4100F4F534 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D492D1051947BA4100F4F534 /* OpenGLES.framework */; };
+		D492D1171947BA4100F4F534 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D492D1061947BA4100F4F534 /* CoreVideo.framework */; };
+		D492D1181947BA4100F4F534 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D492D1071947BA4100F4F534 /* CoreMedia.framework */; };
+		D492D1191947BA4100F4F534 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D492D1081947BA4100F4F534 /* AudioToolbox.framework */; };
+		D492D11A1947BA4100F4F534 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D492D1091947BA4100F4F534 /* AVFoundation.framework */; };
+		D492D11B1947BA4100F4F534 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D492D10A1947BA4100F4F534 /* QuartzCore.framework */; };
+		D492D11C1947BA4100F4F534 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D492D10B1947BA4100F4F534 /* Foundation.framework */; };
+		D492D11D1947BA4100F4F534 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D492D10C1947BA4100F4F534 /* CoreGraphics.framework */; };
+		D492D11E1947BA4100F4F534 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D492D10D1947BA4100F4F534 /* UIKit.framework */; };
+		D492D1211947BA5300F4F534 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D492D1201947BA5300F4F534 /* GLKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D492D0E71947B3B900F4F534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D492D0B61947B3B800F4F534 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D492D0BD1947B3B800F4F534;
+			remoteInfo = KeyboardCatPublisher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D492D0BE1947B3B800F4F534 /* KeyboardCatPublisher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyboardCatPublisher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D492D0C91947B3B900F4F534 /* KeyboardCatPublisher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyboardCatPublisher-Info.plist"; sourceTree = "<group>"; };
+		D492D0CB1947B3B900F4F534 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D492D0CD1947B3B900F4F534 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D492D0CF1947B3B900F4F534 /* KeyboardCatPublisher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KeyboardCatPublisher-Prefix.pch"; sourceTree = "<group>"; };
+		D492D0D01947B3B900F4F534 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D492D0D11947B3B900F4F534 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D492D0D41947B3B900F4F534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		D492D0D71947B3B900F4F534 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		D492D0D91947B3B900F4F534 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D492D0DA1947B3B900F4F534 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D492D0DC1947B3B900F4F534 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D492D0E21947B3B900F4F534 /* KeyboardCatPublisherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardCatPublisherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D492D0EB1947B3B900F4F534 /* KeyboardCatPublisherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KeyboardCatPublisherTests-Info.plist"; sourceTree = "<group>"; };
+		D492D0ED1947B3B900F4F534 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D492D0EF1947B3B900F4F534 /* KeyboardCatPublisherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardCatPublisherTests.m; sourceTree = "<group>"; };
+		D492D0F91947B40D00F4F534 /* OpenTok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenTok.framework; path = ../OpenTok.framework; sourceTree = "<group>"; };
+		D492D0FB1947B44B00F4F534 /* MovVideoCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovVideoCapture.h; sourceTree = "<group>"; };
+		D492D0FC1947B44B00F4F534 /* MovVideoCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovVideoCapture.m; sourceTree = "<group>"; };
+		D492D0FE1947BA4100F4F534 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		D492D0FF1947BA4100F4F534 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		D492D1001947BA4100F4F534 /* libpthread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libpthread.dylib; path = usr/lib/libpthread.dylib; sourceTree = SDKROOT; };
+		D492D1011947BA4100F4F534 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		D492D1021947BA4100F4F534 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		D492D1031947BA4100F4F534 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		D492D1041947BA4100F4F534 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		D492D1051947BA4100F4F534 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		D492D1061947BA4100F4F534 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		D492D1071947BA4100F4F534 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		D492D1081947BA4100F4F534 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		D492D1091947BA4100F4F534 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D492D10A1947BA4100F4F534 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D492D10B1947BA4100F4F534 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D492D10C1947BA4100F4F534 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D492D10D1947BA4100F4F534 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D492D1201947BA5300F4F534 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D492D0BB1947B3B800F4F534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D492D1211947BA5300F4F534 /* GLKit.framework in Frameworks */,
+				D492D10F1947BA4100F4F534 /* libstdc++.dylib in Frameworks */,
+				D492D1181947BA4100F4F534 /* CoreMedia.framework in Frameworks */,
+				D492D11B1947BA4100F4F534 /* QuartzCore.framework in Frameworks */,
+				D492D1141947BA4100F4F534 /* SystemConfiguration.framework in Frameworks */,
+				D492D1111947BA4100F4F534 /* libpthread.dylib in Frameworks */,
+				D492D0FA1947B40D00F4F534 /* OpenTok.framework in Frameworks */,
+				D492D1151947BA4100F4F534 /* CoreTelephony.framework in Frameworks */,
+				D492D1121947BA4100F4F534 /* libsqlite3.dylib in Frameworks */,
+				D492D1101947BA4100F4F534 /* libstdc++.6.0.9.dylib in Frameworks */,
+				D492D1131947BA4100F4F534 /* libxml2.dylib in Frameworks */,
+				D492D11C1947BA4100F4F534 /* Foundation.framework in Frameworks */,
+				D492D11E1947BA4100F4F534 /* UIKit.framework in Frameworks */,
+				D492D1161947BA4100F4F534 /* OpenGLES.framework in Frameworks */,
+				D492D11D1947BA4100F4F534 /* CoreGraphics.framework in Frameworks */,
+				D492D1171947BA4100F4F534 /* CoreVideo.framework in Frameworks */,
+				D492D1191947BA4100F4F534 /* AudioToolbox.framework in Frameworks */,
+				D492D11A1947BA4100F4F534 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D492D0DF1947B3B900F4F534 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D492D0B51947B3B800F4F534 = {
+			isa = PBXGroup;
+			children = (
+				D492D0C71947B3B900F4F534 /* KeyboardCatPublisher */,
+				D492D0E91947B3B900F4F534 /* KeyboardCatPublisherTests */,
+				D492D0C01947B3B800F4F534 /* Frameworks */,
+				D492D0BF1947B3B800F4F534 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D492D0BF1947B3B800F4F534 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D492D0BE1947B3B800F4F534 /* KeyboardCatPublisher.app */,
+				D492D0E21947B3B900F4F534 /* KeyboardCatPublisherTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D492D0C01947B3B800F4F534 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D492D0F91947B40D00F4F534 /* OpenTok.framework */,
+				D492D0FE1947BA4100F4F534 /* libstdc++.dylib */,
+				D492D0FF1947BA4100F4F534 /* libstdc++.6.0.9.dylib */,
+				D492D1001947BA4100F4F534 /* libpthread.dylib */,
+				D492D1011947BA4100F4F534 /* libsqlite3.dylib */,
+				D492D1021947BA4100F4F534 /* libxml2.dylib */,
+				D492D1201947BA5300F4F534 /* GLKit.framework */,
+				D492D1031947BA4100F4F534 /* SystemConfiguration.framework */,
+				D492D1041947BA4100F4F534 /* CoreTelephony.framework */,
+				D492D1051947BA4100F4F534 /* OpenGLES.framework */,
+				D492D1061947BA4100F4F534 /* CoreVideo.framework */,
+				D492D1071947BA4100F4F534 /* CoreMedia.framework */,
+				D492D1081947BA4100F4F534 /* AudioToolbox.framework */,
+				D492D1091947BA4100F4F534 /* AVFoundation.framework */,
+				D492D10A1947BA4100F4F534 /* QuartzCore.framework */,
+				D492D10B1947BA4100F4F534 /* Foundation.framework */,
+				D492D10C1947BA4100F4F534 /* CoreGraphics.framework */,
+				D492D10D1947BA4100F4F534 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D492D0C71947B3B900F4F534 /* KeyboardCatPublisher */ = {
+			isa = PBXGroup;
+			children = (
+				D492D0D01947B3B900F4F534 /* AppDelegate.h */,
+				D492D0D11947B3B900F4F534 /* AppDelegate.m */,
+				D492D0D31947B3B900F4F534 /* Main_iPhone.storyboard */,
+				D492D0D61947B3B900F4F534 /* Main_iPad.storyboard */,
+				D492D0D91947B3B900F4F534 /* ViewController.h */,
+				D492D0DA1947B3B900F4F534 /* ViewController.m */,
+				D492D0DC1947B3B900F4F534 /* Images.xcassets */,
+				D492D0C81947B3B900F4F534 /* Supporting Files */,
+				D492D0FB1947B44B00F4F534 /* MovVideoCapture.h */,
+				D492D0FC1947B44B00F4F534 /* MovVideoCapture.m */,
+			);
+			path = KeyboardCatPublisher;
+			sourceTree = "<group>";
+		};
+		D492D0C81947B3B900F4F534 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D492D0C91947B3B900F4F534 /* KeyboardCatPublisher-Info.plist */,
+				D492D0CA1947B3B900F4F534 /* InfoPlist.strings */,
+				D492D0CD1947B3B900F4F534 /* main.m */,
+				D492D0CF1947B3B900F4F534 /* KeyboardCatPublisher-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D492D0E91947B3B900F4F534 /* KeyboardCatPublisherTests */ = {
+			isa = PBXGroup;
+			children = (
+				D492D0EF1947B3B900F4F534 /* KeyboardCatPublisherTests.m */,
+				D492D0EA1947B3B900F4F534 /* Supporting Files */,
+			);
+			path = KeyboardCatPublisherTests;
+			sourceTree = "<group>";
+		};
+		D492D0EA1947B3B900F4F534 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D492D0EB1947B3B900F4F534 /* KeyboardCatPublisherTests-Info.plist */,
+				D492D0EC1947B3B900F4F534 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D492D0BD1947B3B800F4F534 /* KeyboardCatPublisher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D492D0F31947B3B900F4F534 /* Build configuration list for PBXNativeTarget "KeyboardCatPublisher" */;
+			buildPhases = (
+				D492D0BA1947B3B800F4F534 /* Sources */,
+				D492D0BB1947B3B800F4F534 /* Frameworks */,
+				D492D0BC1947B3B800F4F534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyboardCatPublisher;
+			productName = KeyboardCatPublisher;
+			productReference = D492D0BE1947B3B800F4F534 /* KeyboardCatPublisher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D492D0E11947B3B900F4F534 /* KeyboardCatPublisherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D492D0F61947B3B900F4F534 /* Build configuration list for PBXNativeTarget "KeyboardCatPublisherTests" */;
+			buildPhases = (
+				D492D0DE1947B3B900F4F534 /* Sources */,
+				D492D0DF1947B3B900F4F534 /* Frameworks */,
+				D492D0E01947B3B900F4F534 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D492D0E81947B3B900F4F534 /* PBXTargetDependency */,
+			);
+			name = KeyboardCatPublisherTests;
+			productName = KeyboardCatPublisherTests;
+			productReference = D492D0E21947B3B900F4F534 /* KeyboardCatPublisherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D492D0B61947B3B800F4F534 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "___FULLUSERNAME___";
+				TargetAttributes = {
+					D492D0E11947B3B900F4F534 = {
+						TestTargetID = D492D0BD1947B3B800F4F534;
+					};
+				};
+			};
+			buildConfigurationList = D492D0B91947B3B800F4F534 /* Build configuration list for PBXProject "KeyboardCatPublisher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D492D0B51947B3B800F4F534;
+			productRefGroup = D492D0BF1947B3B800F4F534 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D492D0BD1947B3B800F4F534 /* KeyboardCatPublisher */,
+				D492D0E11947B3B900F4F534 /* KeyboardCatPublisherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D492D0BC1947B3B800F4F534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D492D0D81947B3B900F4F534 /* Main_iPad.storyboard in Resources */,
+				D492D0DD1947B3B900F4F534 /* Images.xcassets in Resources */,
+				D492D0D51947B3B900F4F534 /* Main_iPhone.storyboard in Resources */,
+				D492D0CC1947B3B900F4F534 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D492D0E01947B3B900F4F534 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D492D0EE1947B3B900F4F534 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D492D0BA1947B3B800F4F534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D492D0DB1947B3B900F4F534 /* ViewController.m in Sources */,
+				D492D0FD1947B44B00F4F534 /* MovVideoCapture.m in Sources */,
+				D492D0D21947B3B900F4F534 /* AppDelegate.m in Sources */,
+				D492D0CE1947B3B900F4F534 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D492D0DE1947B3B900F4F534 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D492D0F01947B3B900F4F534 /* KeyboardCatPublisherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D492D0E81947B3B900F4F534 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D492D0BD1947B3B800F4F534 /* KeyboardCatPublisher */;
+			targetProxy = D492D0E71947B3B900F4F534 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D492D0CA1947B3B900F4F534 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D492D0CB1947B3B900F4F534 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D492D0D31947B3B900F4F534 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D492D0D41947B3B900F4F534 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		D492D0D61947B3B900F4F534 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D492D0D71947B3B900F4F534 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		D492D0EC1947B3B900F4F534 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D492D0ED1947B3B900F4F534 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D492D0F11947B3B900F4F534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D492D0F21947B3B900F4F534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D492D0F41947B3B900F4F534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/charley/src/Keyboard-Cat-Publisher",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyboardCatPublisher/KeyboardCatPublisher-Prefix.pch";
+				INFOPLIST_FILE = "KeyboardCatPublisher/KeyboardCatPublisher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D492D0F51947B3B900F4F534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = armv7;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/charley/src/Keyboard-Cat-Publisher",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyboardCatPublisher/KeyboardCatPublisher-Prefix.pch";
+				INFOPLIST_FILE = "KeyboardCatPublisher/KeyboardCatPublisher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = armv7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D492D0F71947B3B900F4F534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KeyboardCatPublisher.app/KeyboardCatPublisher";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyboardCatPublisher/KeyboardCatPublisher-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KeyboardCatPublisherTests/KeyboardCatPublisherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D492D0F81947B3B900F4F534 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KeyboardCatPublisher.app/KeyboardCatPublisher";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KeyboardCatPublisher/KeyboardCatPublisher-Prefix.pch";
+				INFOPLIST_FILE = "KeyboardCatPublisherTests/KeyboardCatPublisherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D492D0B91947B3B800F4F534 /* Build configuration list for PBXProject "KeyboardCatPublisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D492D0F11947B3B900F4F534 /* Debug */,
+				D492D0F21947B3B900F4F534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D492D0F31947B3B900F4F534 /* Build configuration list for PBXNativeTarget "KeyboardCatPublisher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D492D0F41947B3B900F4F534 /* Debug */,
+				D492D0F51947B3B900F4F534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D492D0F61947B3B900F4F534 /* Build configuration list for PBXNativeTarget "KeyboardCatPublisherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D492D0F71947B3B900F4F534 /* Debug */,
+				D492D0F81947B3B900F4F534 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D492D0B61947B3B800F4F534 /* Project object */;
+}
