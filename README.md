@@ -6,7 +6,8 @@ A silly demonstration of the OpenTok iOS SDK Video Drivers
 Usage
 =====
 
-#OpenTok.framework
+OpenTok.framework
+-----------------
 
 Download the OpenTok SDK for iOS, version 2.2.0 to the root of this repository:
 
@@ -29,7 +30,8 @@ drwxr-xr-x   7 charley  staff   238 Jun 10 16:52 OpenTok.framework  # !! THIS
 
 ```
 
-#OpenTok Session Credentials
+OpenTok Session Credentials
+---------------------------
 
 In `ViewController.m`, you will need to set an API key, Session ID, and Token
 in order to connect and realize the full power of the Keyboard Cat Publisher.
