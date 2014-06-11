@@ -51,3 +51,5 @@ necessity.
 
 NB: Audio not supported in this example. The app will simply send audio from the
 device microphone.
+
+![Screenshot of app](http://i.imgur.com/PchhrB6.png)
