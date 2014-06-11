@@ -36,3 +36,18 @@ OpenTok Session Credentials
 In `ViewController.m`, you will need to set an API key, Session ID, and Token
 in order to connect and realize the full power of the Keyboard Cat Publisher.
 See the notes in the source for more information.
+
+How It Works
+============
+
+Check out
+[MovVideoCapture.m](Keyboard-Cat-Publisher/blob/master/KeyboardCatPublisher/KeyboardCatPublisher/MovVideoCapture.m)
+to see the internals of the video capture. In this example, we decode H.264
+from the .mov with the AVAssetReader interface, pass the decoded frame to the 
+OpenTok `OTVideoCapture.videoCaptureConsumer` receiver, and the SDK sends the
+media to the session. At this time, there is no way to send pre-encoded frames
+directly to the session, so this extra decode-encode cycle is an unfortunate
+necessity.
+
+NB: Audio not supported in this example. The app will simply send audio from the
+device microphone.
