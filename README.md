@@ -39,9 +39,8 @@ See the notes in the source for more information.
 
 How It Works
 ============
-
 Check out
-[MovVideoCapture.m](Keyboard-Cat-Publisher/blob/master/KeyboardCatPublisher/KeyboardCatPublisher/MovVideoCapture.m)
+[MovVideoCapture.m](KeyboardCatPublisher/KeyboardCatPublisher/MovVideoCapture.m)
 to see the internals of the video capture. In this example, we decode H.264
 from the .mov with the AVAssetReader interface, pass the decoded frame to the 
 OpenTok `OTVideoCapture.videoCaptureConsumer` receiver, and the SDK sends the
